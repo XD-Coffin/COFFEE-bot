@@ -13,7 +13,7 @@ import requests
 
 
 # Settings
-TOKEN = 'NzkzMzA4Mzg5NDMzNTQwNjM4.X-qYAg.38c4OkYbWlJtNNeGNeUHiY1cTvI'
+TOKEN = ''
 client = commands.Bot(command_prefix = '#')
 queue = []
 status = ['Pic Credit: @The Nun','Pic Credit: @The Nun']
