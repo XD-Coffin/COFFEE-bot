@@ -9,11 +9,12 @@ from discord.ext import commands, tasks
 from lyrics_extractor import SongLyrics
 import time
 import requests
-from os import 
+from os import eviron
 # import horoscope
 
 
 # Settings
+TOKEN = eviron['DISCORD_TOKEN']
 client = commands.Bot(command_prefix = '#')
 queue = []
 status = ['Pic Credit: @The Nun','Pic Credit: @The Nun']
@@ -223,7 +224,7 @@ async def Confess(ctx, a):
 #     await ctx.send(f"VAWISA ANDHAKAR XA: {b}")
 
 
-client.run(process.env.DISCORD_TOKEN)
+client.run(TOKEN)
 
 
 
